@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<style>
+	*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    background: #EBEBEB;
+}
+
+.login
+{
+    width: 400px;
+    height: auto;
+    padding: 20px 20px;
+    background: #FFFFFF;
+    border: 1px white;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login p
+{
+    text-align: center;
+    margin-bottom: 20px;
+    background: none;
+}
+.login .a1
+{
+    font-size: 15px;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #595959;
+    background: none;
+}
+.login .a2
+{
+    float: right;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color:#595959;
+    background: none;
+}
+input
+{
+    width: 100%;
+    background: #F2F2F2;
+    border: 1px solid #A0C49A;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+button
+{
+    width: 100%;
+    background: blue;
+    color: aliceblue;
+    align-content: center;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+}
+button:hover{
+    background: #333333;
+    opacity: 0.8;
+}
+	
+</style>
+</head>
+<body>
+	<form action="Registration" method="post" class="login">
+            <p><img src="add.png" height="150px" width="150px"></p>
+            <input type="text" placeholder="Email" required id="username" name="Email">
+            <input type="password" placeholder="Password" name="pass" required>
+            <button>Sign In</button>
+    </form>
+</body>
+</html>
